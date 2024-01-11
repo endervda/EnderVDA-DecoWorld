@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: articlesWoonaccessoires
+name: 'Articles Woonaccessoires'
+propagationMethod: all
+siteSettings:
+  2b7f435b-0d31-47db-bae2-66d447e8199f: # DecoWorld
+    enabledByDefault: true
+    hasUrls: true
+    template: articles/_entry
+    uriFormat: 'articles/{slug}'
+type: channel

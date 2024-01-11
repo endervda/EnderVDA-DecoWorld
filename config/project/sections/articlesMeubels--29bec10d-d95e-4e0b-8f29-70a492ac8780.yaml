@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: articlesMeubels
+name: 'Articles Meubels'
+propagationMethod: all
+siteSettings:
+  2b7f435b-0d31-47db-bae2-66d447e8199f: # DecoWorld
+    enabledByDefault: true
+    hasUrls: true
+    template: articles-meubels/_entry
+    uriFormat: 'articles-meubels/{slug}'
+type: channel

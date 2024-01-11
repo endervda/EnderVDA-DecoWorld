@@ -1,0 +1,119 @@
+fieldLayouts:
+  0861f81b-e195-46db-9c3f-29e7de15e1de:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: __blank__
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 11103721-c191-4313-80e9-d106dc1161c6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 93c2790f-925c-435e-95bb-bc593e24f0c4 # Article Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 640b8576-1830-48b5-8916-1e5b0b195b09
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: db14db85-dfeb-4400-aaaf-96b0cd6acd27 # Article Name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3f104b5d-fa03-4780-ba02-bfa2daa6fdf2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 631f0e0c-1797-4fa1-a30f-8ebbcc9b9cbd # Article Price
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c69cbaf3-290e-437a-b006-c82691f7f5f0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: de497faa-924f-41fb-a2e6-766eb6d51166 # Article Color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4f862f49-33b4-4e5c-ad87-479d79747b61
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0a84f239-4c2a-4bab-ab43-44f407060912 # Article Dimensions
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 58aa6090-b3d0-444b-a166-9a97bd208e68
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6f58becd-75f9-4034-9ac5-1ad1069e8201 # Article Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a996a7a0-392e-4eca-bcf1-5d742d9f8052
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 5b650834-526f-4e64-bda4-11f51e5bbda4
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: 40124ac9-7d9e-421a-bae6-e35da240499d # Articles Woonaccessoires
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

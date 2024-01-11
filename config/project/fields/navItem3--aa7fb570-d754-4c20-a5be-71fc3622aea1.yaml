@@ -1,0 +1,19 @@
+columnSuffix: zajxawkg
+contentColumnType: string(80)
+fieldGroup: 9f35ba99-9b62-47ae-aadf-b96094891df3 # Global
+handle: navItem3
+instructions: null
+name: 'Nav Item 3'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 20
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

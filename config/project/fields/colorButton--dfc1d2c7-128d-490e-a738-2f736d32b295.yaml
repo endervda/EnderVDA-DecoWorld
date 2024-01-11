@@ -1,0 +1,139 @@
+columnSuffix: dbbjjebu
+contentColumnType: text
+fieldGroup: 9f35ba99-9b62-47ae-aadf-b96094891df3 # Global
+handle: colorButton
+instructions: null
+name: 'Color Button'
+searchable: false
+settings:
+  columnType: string
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Zwart
+        -
+          - value
+          - zwart
+        -
+          - cssColour
+          - '000000'
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Wit
+        -
+          - value
+          - wit
+        -
+          - cssColour
+          - FFFFFF
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Grijs
+        -
+          - value
+          - grijs
+        -
+          - cssColour
+          - A9A9A9
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Rood
+        -
+          - value
+          - rood
+        -
+          - cssColour
+          - FF0000
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Oranje
+        -
+          - value
+          - oranje
+        -
+          - cssColour
+          - FFA500
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Geel
+        -
+          - value
+          - geel
+        -
+          - cssColour
+          - FFFF00
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Groen
+        -
+          - value
+          - groen
+        -
+          - cssColour
+          - '008000'
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Blauw
+        -
+          - value
+          - blauw
+        -
+          - cssColour
+          - 0000FF
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Paars
+        -
+          - value
+          - paars
+        -
+          - cssColour
+          - '800080'
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: verbb\buttonbox\fields\Colours

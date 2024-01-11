@@ -1,0 +1,19 @@
+columnSuffix: zbieqorh
+contentColumnType: text
+fieldGroup: 9f35ba99-9b62-47ae-aadf-b96094891df3 # Global
+handle: articleName
+instructions: 'De naam van het artikel in de catalogus'
+name: 'Article Name'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

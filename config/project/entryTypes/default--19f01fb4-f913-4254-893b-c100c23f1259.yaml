@@ -1,0 +1,131 @@
+fieldLayouts:
+  75acb7ef-87f1-4cd8-bb66-4dc8cd4a8e8d:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: __blank__
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 30d375a3-405e-4bc9-b908-65008f550ab9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f1612651-41fd-4b1e-a315-164ffb945354 # Nav Logo
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: acbaa899-d4f2-46fb-9d52-d8a340454e2c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f5558cc9-1cba-4ded-9043-2b8c0692bf75 # Nav Item 1
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 55ce310d-6e0d-4035-917c-b901dde708e7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4e47d9d0-f5d2-452d-acd8-536898b9611f # Nav Item 2
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e6868efe-8039-47d6-bd01-1d55325af02a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: aa7fb570-d754-4c20-a5be-71fc3622aea1 # Nav Item 3
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bd66c7f2-88f5-4601-8071-4874390ac661
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 35bafa37-5987-4eaa-bb09-65a7306e7224 # Rich Text
+            instructions: null
+            label: 'Categorie naam'
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b013335e-4a80-432c-bce6-6a2c0361d5d9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1233b385-080a-4776-b147-6f7efd633d8a # Category Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 42a75bc1-1340-45cf-96c3-a5aa70e950ca
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6d9026a6-ac54-42d9-bba5-3f003a244e02 # Category Description
+            instructions: 'Een korte omschrijving van de categorie.'
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 986b8f8b-3a6e-441d-9712-e6512270aa5f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: c94d14ce-5915-4078-b6ee-505c398607af
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: b82c468e-cb4c-44b3-9a37-092ba8e08089 # Categories
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

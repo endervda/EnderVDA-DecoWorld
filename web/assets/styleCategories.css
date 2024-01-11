@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(../images/backgroundtexture.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    color: #414141;
+}
+
+.articleImage {
+    width: 300px;
+    height: 300px;
+}
+
+nav {
+    width: 100%;
+    background-color: #414141;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 24px;
+    border-bottom: 3px #6d6181 solid;
+    font-size: 14px;
+}
+
+.navigation {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+}
+
+.navigation li {
+    margin: 0 16px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #DDDDDD;
+    font-weight: bold;
+}
+
+.container {
+    background-color: #DDDDDD;
+    padding: 32px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.articleDetails {
+    display: flex;
+    flex-direction: row;
+}
+
+.articleDetails p {
+    color: #DDDDDD;
+    background-color: #414141;
+    padding: 4px 12px;
+    margin-right: 8px;
+    border-radius: 15px;
+    font-weight: 800;
+
+}
+
+footer {
+    color: #DDDDDD;
+    font-size: 8px;
+    background-color: #414141;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.footertxt2 {
+    text-align: end;
+}
+
+#sortButton {
+    background-color: #414141;
+    color: #DDDDDD;
+    border: 0;
+    border-radius: 16px;
+    font-weight: 800;
+    padding: 4px 12px;
+}
+
+.pageInfo {
+    margin-bottom: 64px;
+}
+
+.pageInfo p {
+    font-weight: 700;
+}
+
+.entries {
+    margin-top: 32px;
+    border-bottom: 3px solid #414141;
+}
+
+h2 {
+    margin: 0;
+    margin-top: 8px;
+}
+
+.articleDescription {
+    margin: 0;
+}
+
+@media (min-width:768px) {
+
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .navigation {
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container {
+        margin: 64px 64px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+
+    nav {
+        padding: 24px;
+    }
+
+}

@@ -1,0 +1,119 @@
+fieldLayouts:
+  acdc766b-9d70-455d-83cf-87967fa7fa9f:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: b41966af-a5aa-4fc5-af36-82d4dd043663
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f1612651-41fd-4b1e-a315-164ffb945354 # Nav Logo
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b5d6eb98-57f8-46ec-bde4-2ecec122e810
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f5558cc9-1cba-4ded-9043-2b8c0692bf75 # Nav Item 1
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5a26fca6-966c-4857-b303-a51c88af5429
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4e47d9d0-f5d2-452d-acd8-536898b9611f # Nav Item 2
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ae186509-ee1e-4180-bce7-ba8bc3368a20
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: aa7fb570-d754-4c20-a5be-71fc3622aea1 # Nav Item 3
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bf5e4e7a-e1c6-4ab1-8a7c-1759a3339b44
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 86c3713e-80a0-4fcb-a97f-21c2e1a5e43d # Logo
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cfb630f0-e9bd-47da-bbcf-054acc78b6c6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 35bafa37-5987-4eaa-bb09-65a7306e7224 # Rich Text
+            instructions: null
+            label: 'Homepage welcome text'
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9358df91-4c75-4f10-a5af-65c5d104505b
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Homepage Content'
+        uid: 66a6d67a-1f9f-45f0-9fbb-76d7baf5f881
+        userCondition: null
+handle: homepage
+hasTitleField: false
+name: Homepage
+section: 367b90c4-4acd-4b41-b681-ffcc09154655 # Homepage
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

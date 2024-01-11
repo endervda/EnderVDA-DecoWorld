@@ -1,0 +1,49 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DecoWorld</title>
+    <link rel="stylesheet" href="../assets/styleIndex.css">
+</head>
+
+<body>
+    <nav>
+        <a href="https://decoworld.ddev.site/">{{entry.navLogo}}</a>
+        <ul class="navigation">
+            <li>
+                <a href="https://decoworld.ddev.site/categories/woonaccessoires">{{entry.navItem3}}</a>
+            </li>
+            <li>
+                <a href="https://decoworld.ddev.site/categories/meubels">{{entry.navItem2}}</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="pageInfo">
+            <h1>{{entry.logo}}</h1>
+            <p>{{entry.richText}}</p>
+        </div>
+        {% set  categoryItems = craft.entries.section('categories').limit(2).all() %}
+        {% for item in categoryItems %}
+        <div class="categories">
+            <img class="categoryImage" src="{{item.categoryImage.one().url('categoryImage')}}">
+			<div class="categoryDetails">
+            <a class="categoryLinks" href="{{item.url}}">{{item.richText}}</a>
+            <p class="articleDescription">{{item.categoryDescription}}</p>
+			</div>
+        </div>
+        {% endfor %}
+    </div>
+    <footer>
+        <div class="footertxt1">
+            <h3>Ender Van der Auwera</h3>
+            <h3>DecoWorld™</h3>
+        </div>
+        <div class="footertxt2">
+            <h3>r0952271@student.thomasmore.be</h3>
+            <h3>Development 3</h3>
+        </div>
+    </footer>
+</body>
+</html>

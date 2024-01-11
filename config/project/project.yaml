@@ -1,0 +1,70 @@
+dateModified: 1704994614
+email:
+  fromEmail: vdaender@gmail.com
+  fromName: DecoWorld
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  uploadsFs:
+    hasUrls: true
+    name: 'Uploads FS'
+    settings:
+      path: '@webroot/uploads'
+    type: craft\fs\Local
+    url: '@web/uploads'
+meta:
+  __names__:
+    0a84f239-4c2a-4bab-ab43-44f407060912: 'Article Dimensions' # Article Dimensions
+    2aee9847-36ef-4dfa-b019-021fb0fd37df: DecoWorld # DecoWorld
+    2b7f435b-0d31-47db-bae2-66d447e8199f: DecoWorld # DecoWorld
+    4a2b950d-5709-462d-8900-a43c2d04f939: Default # Default
+    4e47d9d0-f5d2-452d-acd8-536898b9611f: 'Nav Item 2' # Nav Item 2
+    6d9026a6-ac54-42d9-bba5-3f003a244e02: 'Category Description' # Category Description
+    6f58becd-75f9-4034-9ac5-1ad1069e8201: 'Article Description' # Article Description
+    7e37a9cc-a262-4661-93c6-f0b3778e60b8: Uploads # Uploads
+    9f35ba99-9b62-47ae-aadf-b96094891df3: Global # Global
+    19f01fb4-f913-4254-893b-c100c23f1259: Default # Default
+    29bec10d-d95e-4e0b-8f29-70a492ac8780: 'Articles Meubels' # Articles Meubels
+    35bafa37-5987-4eaa-bb09-65a7306e7224: 'Rich Text' # Rich Text
+    86c3713e-80a0-4fcb-a97f-21c2e1a5e43d: Logo # Logo
+    87fb7d5a-4a98-47ac-90e1-d810f05b6843: Default # Default
+    93c2790f-925c-435e-95bb-bc593e24f0c4: 'Article Image' # Article Image
+    367b90c4-4acd-4b41-b681-ffcc09154655: Homepage # Homepage
+    0483ddfe-ef28-411b-8be4-73bea4541142: 'Category Image' # Category Image
+    576d72ff-794d-4723-9813-933a2789883c: Common # Common
+    631f0e0c-1797-4fa1-a30f-8ebbcc9b9cbd: 'Article Price' # Article Price
+    1233b385-080a-4776-b147-6f7efd633d8a: 'Category Image' # Category Image
+    8236bb85-112b-4ddb-b96f-80f325d739f1: Homepage # Homepage
+    40124ac9-7d9e-421a-bae6-e35da240499d: 'Articles Woonaccessoires' # Articles Woonaccessoires
+    aa7fb570-d754-4c20-a5be-71fc3622aea1: 'Nav Item 3' # Nav Item 3
+    b82c468e-cb4c-44b3-9a37-092ba8e08089: Categories # Categories
+    bd1c2bca-25f0-411f-b554-e2162eba35bf: 'Article Image' # Article Image
+    db14db85-dfeb-4400-aaaf-96b0cd6acd27: 'Article Name' # Article Name
+    de497faa-924f-41fb-a2e6-766eb6d51166: 'Article Color' # Article Color
+    dfc1d2c7-128d-490e-a738-2f736d32b295: 'Color Button' # Color Button
+    f5558cc9-1cba-4ded-9043-2b8c0692bf75: 'Nav Item 1' # Nav Item 1
+    f1612651-41fd-4b1e-a315-164ffb945354: 'Nav Logo' # Nav Logo
+plugins:
+  buttonbox:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0
+  image-resizer:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: DecoWorld
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

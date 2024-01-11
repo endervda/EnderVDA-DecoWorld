@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: categories
+name: Categories
+propagationMethod: all
+siteSettings:
+  2b7f435b-0d31-47db-bae2-66d447e8199f: # DecoWorld
+    enabledByDefault: true
+    hasUrls: true
+    template: categories/_entry
+    uriFormat: 'categories/{slug}'
+type: channel

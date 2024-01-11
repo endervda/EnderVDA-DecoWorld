@@ -1,0 +1,93 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DecoWorld - Categories</title>
+    <link rel="stylesheet" href="../assets/styleCategories.css">
+</head>
+
+<body>
+    <nav>
+        <a href="https://decoworld.ddev.site/">{{entry.navLogo}}</a>
+        <ul class="navigation">
+            <li>
+                <a href="https://decoworld.ddev.site/categories/woonaccessoires">{{entry.navItem3}}</a>
+            </li>
+            <li>
+                <a href="https://decoworld.ddev.site/categories/meubels">{{entry.navItem2}}</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="pageInfo">
+            <h1>{{entry.richText}}</h1>
+            <p>{{entry.categoryDescription}}</p>
+			<button id="sortButton"><span class="btnStyle">Prijs</span> (Laagst naar hoogst)</button>
+
+        </div>
+        {% set sectionHandle = craft.app.request.getSegment(2) == 'woonaccessoires' ? 'articlesWoonaccessoires' : 'articlesMeubels' %}
+		{% set articleItems = craft.entries.section(sectionHandle).all() %}
+		{% for item in articleItems %}
+        <div class="entries">
+            <img class="articleImage" src="{{item.articleImage.one().url('articleImage')}}">
+            <h2>{{item.articleName}}</h2>
+            <div class="articleDetails">
+                <p class="articlePrice">{{item.articlePrice}}</p>
+                <p class="articleColor">{{item.articleColor}}</p>
+                <p class="articleDimensions">{{item.articleDimensions}}</p>
+            </div>
+            <p class="articleDescription">{{item.articleDescription}}</p>
+        </div>
+        {% endfor %}
+    </div>
+    <footer>
+        <div class="footertxt1">
+            <h3>Ender Van der Auwera</h3>
+            <h3>DecoWorld™</h3>
+        </div>
+        <div class="footertxt2">
+            <h3>r0952271@student.thomasmore.be</h3>
+            <h3>Development 3</h3>
+        </div>
+    </footer>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const sortButton = document.getElementById('sortButton');
+        const entriesContainer = document.querySelector('.container');
+        let isDescending = true;
+
+        sortButton.addEventListener('click', function () {
+            isDescending = !isDescending;
+            sortEntriesByPrice();
+            updateButtonText();
+        });
+
+        function sortEntriesByPrice() {
+            const entries = Array.from(document.querySelectorAll('.entries'));
+            entries.sort(function (a, b) {
+                const priceA = parseFloat(a.querySelector('.articlePrice').innerText.replace('€', '').trim());
+                const priceB = parseFloat(b.querySelector('.articlePrice').innerText.replace('€', '').trim());
+
+                if (isDescending) {
+                    return priceB - priceA;
+                } else {
+                    return priceA - priceB;
+                }
+            });
+
+            entries.forEach(function (entry) {
+                entriesContainer.appendChild(entry);
+            });
+        }
+
+        function updateButtonText() {
+            const buttonText = isDescending ? 'Prijs (Hoogst naar laagst)' : 'Prijs (Laagst naar hoogst)';
+            sortButton.textContent = buttonText;
+        }
+    });
+</script>
+
+</body>
+
+</html>
